@@ -2,7 +2,7 @@ pipeline {
 agent any
 stages {
 stage ("SCM"){
-steps {git 'https://github.com/Netha1999/final.git'}
+steps {git 'https://github.com/Netha1999/new-repo.git'}
 }
 stage ("Build"){
 steps {
